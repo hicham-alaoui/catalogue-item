@@ -1,0 +1,29 @@
+<html>
+
+<body>
+
+<h1>You are Searching the {{area.name}} Area</h1>
+
+
+{% for i in properties %}
+
+<div>
+<p>Address:{{i.name}}</p>
+<p>Details:{{i.description}}</p>
+<p>City: {{i.city}}</p>
+<p>Price: {{i.price}}</p>
+
+
+<br>
+<a href="#">Edit</a>
+<br>
+<a href="#">Delete</a>
+
+</div>
+
+{% endfor %}
+
+</body>
+
+</html>
+

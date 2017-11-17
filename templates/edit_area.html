@@ -1,0 +1,20 @@
+<html>
+
+<body>
+
+<div>
+	<h1 style="color: font-weight: bold; text-align:center; background-color: rgb(216,191,216)">Edit Area</h1>
+
+	<form action="{{ url_for('editArea', id = area_id) }}" method = "post">
+		<input type='text'  name='name' placeholder ='{{i.name}}'>
+		<input type='submit' value='Edit Area'>
+	</form>
+
+</div>
+
+
+
+
+</body>
+
+</html>
